@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .service-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+  }
+  
+  #contactForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
